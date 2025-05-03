@@ -13,14 +13,14 @@ This is a Python crawler and analyzer designed for the PTT Beauty board, focusin
 ## Requirements
 
 - Python 3.7+
-- `httpx`
-- `beautifulsoup4`
+- httpx
+- beautifulsoup4
 
 Install dependencies with:
-`
+
 bash
 pip install httpx beautifulsoup4
-`
+
 ## Usage
 1. Crawl all 2024 posts:
 bash
@@ -38,9 +38,9 @@ bash
 python ptt_beauty_crawler.py keyword 0101 0331 女神
 
 ## Output Files
-articles.jsonl: All 2024 articles.
-popular_articles.jsonl: Filtered list of popular articles.
-push_XXXX_YYYY.json: Push/boo statistics.
-popular_XXXX_YYYY.json: Image URLs from popular posts.
-keyword_XXXX_YYYY_keyword.json: Image URLs for keyword-matched posts.
+- articles.jsonl: All 2024 articles.
+- popular_articles.jsonl: Filtered list of popular articles.
+- push_XXXX_YYYY.json: Push/boo statistics.
+- popular_XXXX_YYYY.json: Image URLs from popular posts.
+- keyword_XXXX_YYYY_keyword.json: Image URLs for keyword-matched posts.
 
